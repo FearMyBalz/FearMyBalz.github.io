@@ -12,7 +12,7 @@
   </div>
   <div id="sidebar">
     <ul>
-      <li><a href="index.html">Uz s‚kumu</a></li>
+      <li><a href="index.html">Uz sƒÅkumu</a></li>
       <li><a href="gimp.html">Gimp</a></li>
       <li><a href="ink.html">Inkscape</a></li>
       <li><a href="tab.html">Tabula</a></li>
@@ -125,9 +125,15 @@ function changeImage() {
     }
 }
 </script>
+<p id="one"></p>
+<button onclick="random()">Random</button>
 
-<img src=http://animated.name/uploads/posts/2016-08/1471201938_602.gif>
-    </div>
+<script>
+ function random(){
+
+document.getElementById("one").innerHTML = Math.floor(Math.random() * 100);
+}
+</script>
   </div>
 </div>
 </body>
